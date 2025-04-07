@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: white;
+    position: relative;
+  }
+  a{
+    color: white;
+  }
+  
+  /* Texto */
+  .container {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .container h1 {
+    font-size: 50px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #00f2ff;
+  }
+  
+  .container p {
+    font-size: 22px;
+  }
+  
+  /* Estrellas Fijas y Brillantes */
+  .stars,
+  .stars2,
+  .stars3 {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  
+  .stars {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow:
+      50px 100px #ffffff, 130px 230px #ffffff, 220px 300px #ffffff,
+      400px 150px #ffffff, 550px 200px #ffffff, 670px 300px #ffffff,
+      800px 100px #ffffff, 920px 230px #ffffff, 1050px 280px #ffffff,
+      1170px 190px #ffffff, 100px 500px #ffffff, 250px 450px #ffffff,
+      350px 600px #ffffff, 480px 580px #ffffff, 650px 500px #ffffff,
+      780px 530px #ffffff, 900px 600px #ffffff, 1100px 470px #ffffff,
+      1250px 530px #ffffff, 200px 100px #ffffff, 300px 250px #ffffff,
+      150px 350px #ffffff, 1000px 400px #ffffff, 800px 580px #ffffff,
+      1180px 340px #ffffff, 1230px 100px #ffffff, 720px 620px #ffffff,
+      640px 400px #ffffff, 200px 630px #ffffff, 900px 200px #ffffff;
+    filter: drop-shadow(0 0 6px white);
+  }
+  
+  .stars2 {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow:
+      60px 180px #fdfd96, 140px 280px #fdfd96, 300px 320px #fdfd96,
+      460px 180px #fdfd96, 580px 260px #fdfd96, 710px 140px #fdfd96,
+      840px 320px #fdfd96, 960px 180px #fdfd96, 1080px 290px #fdfd96,
+      1220px 210px #fdfd96, 160px 100px #fdfd96, 240px 420px #fdfd96,
+      390px 510px #fdfd96, 520px 370px #fdfd96, 690px 600px #fdfd96,
+      870px 490px #fdfd96, 990px 150px #fdfd96, 1110px 390px #fdfd96,
+      1280px 310px #fdfd96;
+    filter: drop-shadow(0 0 8px #fdfd96);
+  }
+  
+  .stars3 {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow:
+      70px 150px #ccffff, 160px 250px #ccffff, 280px 310px #ccffff,
+      430px 170px #ccffff, 600px 230px #ccffff, 720px 110px #ccffff,
+      850px 300px #ccffff, 980px 160px #ccffff, 1100px 270px #ccffff,
+      1240px 180px #ccffff, 90px 550px #ccffff, 300px 470px #ccffff,
+      520px 580px #ccffff, 640px 420px #ccffff, 760px 320px #ccffff,
+      890px 370px #ccffff, 1010px 460px #ccffff, 1150px 580px #ccffff,
+      1300px 300px #ccffff;
+    filter: drop-shadow(0 0 10px #ccffff);
+  }
