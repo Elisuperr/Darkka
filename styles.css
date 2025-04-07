@@ -140,7 +140,7 @@ body {
       left: auto;
       right: auto;
       margin: 10px;
-      position: relative;
+      position: absolute;
     }
   
     .Darkkafur {
@@ -152,8 +152,8 @@ body {
     }
   
     .Gsus {
-      width: 60vw;
-      height: auto;
+      width: 150px;
+      height: 100px;
       bottom: 20px;
     }
   
