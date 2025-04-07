@@ -132,24 +132,24 @@ body {
   }
 
   @media (max-width: 768px) {
+    .image-row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; /* alineadas desde abajo */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      gap: 10px; /* espacio entre imágenes */
+      padding: 10px;
+    }
+  
     .Darkkafur,
     .Darkkahuman {
       width: 40vw;
       height: auto;
-      top: 10px;
-      display: flex;
-      justify-content: center; 
-      align-items: center;   
-      margin: 10px;
-      position: relative;
-    }
-  
-    .Darkkafur {
-      order: 2;
-    }
-  
-    .Darkkahuman {
-      order: 1;
+      margin: 0;
+      position: static; /* importante quitar "absolute" aquí */
+      order: unset; /* opcional, si ya no los estás reordenando */
     }
   
     .Gsus {
