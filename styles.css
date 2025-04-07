@@ -130,3 +130,39 @@ body {
       1300px 300px #ccffff;
     filter: drop-shadow(0 0 10px #ccffff);
   }
+
+  @media (max-width: 768px) {
+    .Darkkafur,
+    .Darkkahuman {
+      width: 40vw;
+      height: auto;
+      top: 10px;
+      left: auto;
+      right: auto;
+      margin: 10px;
+      position: relative;
+    }
+  
+    .Darkkafur {
+      order: 2;
+    }
+  
+    .Darkkahuman {
+      order: 1;
+    }
+  
+    .Gsus {
+      width: 60vw;
+      height: auto;
+      bottom: 20px;
+    }
+  
+    .container h1 {
+      font-size: 32px;
+    }
+  
+    .container p {
+      font-size: 16px;
+    }
+  }
+  
